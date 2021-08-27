@@ -1,0 +1,26 @@
+take  project to git hub
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/codeuiandy/hh.git
+git push -u origin main
+
+pip install gunicoin
+pip install django-heroku
+pip freeze > requirements.txt
+
+after installation  downlaod heroku cls
+
+run open your command prompt and run heroku
+ - heroku login (to login to your app)
+
+run pip freeze > requirments.txt
+
+run git init
+run git add -A
+RUN git status
+run git commit -m "this is my comimit"
+heroku create customerapp
+git push heroku master
